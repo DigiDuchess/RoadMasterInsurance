@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    /* -------colors------- */
+    --black:black;
+    --red:red;
+    --blueviolet:blueviolet;
+    --voilet:#08194a;
+    --dark:#212529;
+}
+.nav1 .nav-item{
+    padding-left: 30px;
+}
+.nav2 .nav-item{
+    padding-left: 20px;
+}
+.navbar-nav a{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-brand{
+    color: var(--black);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+.navbar-light .navbar-brand span{
+    color:var(--red);
+}
+
+/* .section-padding{
+    padding: 80px 0;
+} */
+/* .w-100{
+    height: 100vh;
+} */
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background-color: white;
+}
+.carousel{
+    border-radius: 10px;
+    /* background-image: url('car8.jpg'); */
+    background-image: url('carbg.jpg');
+
+    background-position: center;
+  
+    background-size: cover;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom:220px;
+    z-index:2;
+    left:8%;
+}
+.carousel-item h5{
+    font-size: 45px;
+    margin-top: 0%; 
+     color:white;
+    font-weight: 800;
+    text-align: left;
+    position: relative;
+    bottom: 150px;
+}
+.carousel-caption h5 span{
+    color: var(--red);
+}
+.carousel-caption p{
+    width: 60%;
+    /* margin-top: 100px; */
+    font-size: 12px;
+    line-height: 1.8;
+    color:white;
+    text-align: left;
+    position: relative;
+    bottom: 160px;
+
+    
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: var(--black);
+    padding: 5px 20px;
+    display: inline-block;
+    color:white;
+    margin-top: 20px;
+    position: relative;
+    bottom: 30px;
+        border-radius: 5px;
+}
+.carousel-item a{
+    background-color:var(--blueviolet);
+    }
+  /* ---------------section-aboutProtection bike */
+  .section-aboutProtection{
+    height: 400px;
+  }
+  .col{
+    padding-top: 40px;
+  }
+  .col h3 {
+    padding-top: 40px;
+    font-weight: 800;
+}
+.col h3 span{
+    color:var(--red);
+}
+.col p{
+    font-weight: 300;
+    line-height: 30px;
+    font-style: inherit;
+}
+.col img{
+    margin-left: 100px;
+}
+  /* ---------------section-aboutProtection car */
+  .section-aboutProtection1{
+    height: 400px;
+  }
+  .col1{
+    padding-top: 40px;
+  }
+  .col1 h3 {
+    padding-top: 40px;
+    font-weight: 800;
+}
+.col1 h3 span{
+    color:var(--red);
+}
+.col1 p{
+    font-weight: 300;
+    line-height: 30px;
+    font-style: inherit;
+}
+.col1 img{
+    margin-right: 120px;
+    padding-bottom: 00px;
+}
+/* ---------why choose------- */
+.why-choose{
+    height: 600px;
+}
+.single-service{
+    background-color: #08194a;
+    color: white;
+    padding:13px 10px;
+
+}
+.single-service i{
+  font-size: 45px;
+ margin-bottom: 30px;
+}
+
+.section-header h2{
+ font-weight: 800;
+margin-top: 70px;
+}
+.section-header h3{
+color: var(--red);
+font-weight: 800;
+
+}
+
+/* -------------------------------services----------- */
+
+.service{
+    display: flex;
+    justify-content: center;
+}
+.service-heading{
+    font-weight: 800;
+    font-size: 70px;
+    margin-top: 50px;
+}
+.service-heading h1{
+    font-weight: 800;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+ .service-heading span{
+    color: var(--red);
+    font-weight: 800;
+    text-align: center;
+
+ }
+.service-types .col-lg-3{
+    text-align: center;
+    margin-top: 20px;
+    /* border: 2px solid black;
+    border-radius: 30px; */
+}
+.service-types img{
+    padding: 5px;
+}
+
+
+/* --------------------------patners-logo-- */
+.patners-logo-row1{
+    padding: 15px;
+    text-align: center;
+}
+.patners-logo-row2{
+    padding: 15px;
+    text-align: center;
+
+}
+.patners-logo-row3{
+    padding: 15px;
+    text-align: center;
+
+}
+.patners-heading h2{
+    font-weight: 800;
+    color:var(--voilet)
+}
+.patners-heading p{
+    font-size: 20px;
+}
+
+
+.contact{
+    font-family: Arial, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+   min-width: 600px;
+    /* background-color: #f5f5f5; */
+    font-weight: 800;
+
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+     max-width:800px; 
+    width: 100%;
+    font-weight: 800;
+ 
+
+}
+
+.contact-form h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 800;
+    width: 100%;
+    color: var(--voilet);
+
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact-form input[type="text"]{
+
+width: 100%;
+}
+
+.contact-form input{
+    width: 100%;
+    
+    padding: 8px;
+    /* padding-left: 20px; */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.contact-form textarea {
+    width: 100%;
+
+    padding: 8px;
+    /* padding-left: 20px; */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#form-status {
+    margin-top: 10px;
+    text-align: center;
+}
+/* ---------address-iconbar------------ */
+.address-iconbar {
+    margin-top: 50px;
+}
+.address-iconbar i {
+    border: 1px solid black;
+    padding: 15px 80px;
+    /* background-color: #00a5a5; */
+    background-color: var(--voilet);
+
+    color: white;
+    font-size: 50px;
+}
+.address-iconbar p {
+    font-size: 20px;
+}
+/* ---------------------footer-top------ */
+   .footer-top{
+    color: white;
+    padding: 100px 0px;
+    /* text-align: center; */
+   }
+   .footer-links a{
+    text-decoration: none;
+    color: white;
+    /* text-align: center; */
+   }
+     .footer-links li{
+    list-style: none;
+    padding-right: 55px;
+    line-height: 30px;
+   }
+   .footer-links i{
+    padding-right: 10px;
+    border-radius: 50%;
+    
+   }
+   .footer-top h4{
+    color: white;
+    padding-left: 25px;
+   }
